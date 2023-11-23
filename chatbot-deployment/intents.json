@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Como estas",
+        "Disculpe buenos dias",
+        "Hay alguien aqui",
+        "Hola",
+        "¿Cómo estás , o estan?"
+      ],
+      "responses": [
+        "Hola :-)",
+        "Hola, gracias por visitarnos",
+        "Hola, que puedo hacer por ti?",
+        "Hola, como puedo ayudarte?"
+      ]
+    },
+    {
+      "tag": "adios",
+      "patterns": ["Adios", "Hasta luego", "Adios"],
+      "responses": [
+        "Hasta luego, gracias por visitarnos",
+        "Que tenga un lindo dia",
+        "¡Adiós! Vuelve pronto. "
+      ]
+    },
+    {
+      "tag": "Gracias",
+      "patterns": ["Gracias", "Gracias a ti", "muchas gracias", "gracias por tu ayuda"],
+      "responses": ["No hay problema, si tienes otra consulta hazmelo saber", "Tienes otra consulta?", "Un placer"]
+    },
+    {
+      "tag": "login",
+      "patterns": [
+        "Como inicio sesión en el portal de estudiantes?",
+        "Como inicio sesión en el portal de estudiantes?",
+        "iniciar sesión en el portal",
+        "¿dónde empiezo la sesion?",
+        "¿Quiero iniciar sesion?",
+        "¿Que hago para registrarme?",
+        "Como me registro?",
+        "Como me conecto?"
+      ],
+      "responses": [
+        "Necesita un codigo de estudiante unico de 6 digitos para registrarse en el Portal del estudiante. Si no sabe su codigo, puede obtenerlo de su escuela."
+      ]
+    },
+    {
+      "tag": "catalogo",
+      "patterns": [
+        "Cuando estará disponible el nuevo catalogo de cursos?",
+        "Donde puedo ver el catalogo de cursos?",
+        "catalogo de cursos",
+        "Quiero más informacion sobre el catalogo de cursos"
+      ],
+      "responses": [
+        "El Catalogo de Cursos se encuentra publicado en el centro de computo en la siguiente dirección: http://ccomputo.unsaac.edu.pe/ en la parte del sistema académico del alumno."
+      ]
+    },
+    {
+      "tag": "Test",
+      "patterns": [
+        "¿Como comenzar mi prueba vocacional?",
+        "¿Como evaluar mi aptitud profesional?",
+        "Quiero evaluar mi aptitud profesional"
+      ],
+      "responses": [
+        "Al buscar su primer trabajo o considerar un cambio de carrera, debe realizar una prueba de carrera para conocer las opciones de carrera que pueden coincidir con sus habilidades, intereses y valores. Puede realizar su evaluación en los siguientes enlaces: https://www.123test.com/career-test/https://www.careerexplorer.com/members/login/?next=/assessments/"
+      ]
+    },
+    {
+      "tag": "divertido",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+
+
+
+  ]
+}

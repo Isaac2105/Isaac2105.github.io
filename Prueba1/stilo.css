@@ -1,0 +1,72 @@
+/* Estilos para el test vocacional */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+imagen{
+    width: 350px;
+}
+
+a {
+  background-color: #060606;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px -20px;
+  cursor: pointer;
+}
+
+header {
+    background-color: #3498db;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    img:left;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+section {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+button {
+  background-color: #060606;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 50px;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.brand img{
+    width: 175px;
+    height: 75;
+}
+
